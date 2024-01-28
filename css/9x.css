@@ -1,0 +1,17 @@
+.bigdiv{
+	height: 50px;
+	width: 800px;
+	border: 2px solid black;
+}
+.oto200{
+	height: 40px;
+	background: red;
+	width: 40px;
+	margin-top: 5px;
+
+}
+.small{
+	height: 40px;
+	width: 40px;
+	background: black;
+}

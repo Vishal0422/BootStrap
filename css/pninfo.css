@@ -1,0 +1,113 @@
+.title{
+	font-size: 42px;
+}
+.title-regular{
+	font-size: 42px;
+	color: #009df2;
+	font-weight: 600;
+}
+.underline{
+	
+	width: 70px;
+	color: #ff5800;
+	margin-left: 608px;
+	height: 10px;
+}
+.lead{
+	font-size: 20px;
+	color: #7a7c82;
+	text-align: center;
+}
+.images{
+    height: 129px;
+    width: 130px;
+    margin-left: 81px;
+
+}
+.lowertext{
+	font-size: 14px;
+    line-height: 24px;
+    margin-top: -26px;
+    color: #7a7c82;
+}
+.uppertext{
+	font-size: 18px;
+	color: #7a7c82;
+    font-weight: 700;
+
+}    
+.smartsol{
+	background: #009DF3;
+	margin-top: 30px;
+}
+.free{
+	color: #009df2;
+}
+.freetext{
+	/*border: 2px solid;*/
+	height: 100px;
+	width: 270px;
+    margin-left: 67px;
+    margin-top: 4px;
+}
+.freetext-head{
+	/*border: 2px solid;*/
+	height: 30px;
+	width: 270px;
+    margin-left: 67px;
+    margin-top: -35px;
+}
+.icon{
+	margin-left: 13px;
+	color:  #ff5800;
+
+}
+.freetext-para{
+	font-size: 13px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: 500;
+	color: #7a7c82;
+}
+.techs-img-box{
+	height: 35px;
+	width: 35px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background: #009df2;
+}
+.techs-img-head{
+	width: 225px;
+	height: 14px;
+	border: 1px solid white;
+    margin-top: -32px;
+    margin-left: 39px;
+}
+.techs-para{
+	
+	color: #7a7c82;
+    margin-left: 40px;
+    margin-top: 7px;
+    font-size: 13px;
+    font-weight: 500;
+}
+}
+.tech-icon{
+	font-size: 15px;
+	color: white;
+
+}
+.learn-these-tech-now-section{
+	
+	background: #009df2;
+}
+.learn-these-tech-now-para
+{
+	margin-left: 167px;
+	font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  {
+    color: red;
+  }
+}

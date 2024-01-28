@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/navbar2.css">
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a24ac64288.js" crossorigin="anonymous"></script>
+  <style>
+  .navbar{
+    background-color: black;
+  }
+  .navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  .moblogo{
+    display: none;
+  }
+  @media(max-width:700px){
+    .moblogo{
+      display: block;
+    }
+    .weblogo{
+      display: none;
+    }
+    .navbar{
+      background-color: #fbaa1a;
+    }
+    .nav-link:hover{
+      color: #000;
+    }
+  }
+
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="width:59px;" class="weblogo" >
+
+        <img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="moblogo">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</body>
+</html>
